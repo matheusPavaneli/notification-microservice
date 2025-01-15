@@ -170,7 +170,7 @@ npm start
 }
 ```
 
-### **DELETE** `/:id/read`
+### **DELETE** `/:id`
 
 - **Description**: Delete task by id.
 - **Request Params**:
@@ -196,7 +196,7 @@ npm start
 }
 ```
 
-### **PUT** `/:id/update`
+### **PUT** `/:id`
 
 - **Description**: Update task by id;
 - **Request Params**:

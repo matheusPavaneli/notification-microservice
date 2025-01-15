@@ -29,7 +29,7 @@ router.put(
   notificationController.markAsRead
 );
 router.put(
-  "/:id/update",
+  "/:id",
   joiValidate(JoiValidator.idParamSchema, "params"),
   joiValidate(JoiValidator.updateNotificationBodySchema, "body"),
   notificationController.updateTask
